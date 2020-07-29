@@ -2,6 +2,7 @@
 
 const https = require("https");
 const cron = require("node-cron");
+const parser = require("rss-parser");
 
 var options = {
     hostname: 'typetalk.com',
@@ -12,3 +13,9 @@ var options = {
         'X-TYPETALK-TOKEN': 'xxxxxxxxxxxx'
     }
 };
+
+function main(){
+    return;
+}
+
+main();
